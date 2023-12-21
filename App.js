@@ -21,7 +21,7 @@ import BleManager from 'react-native-ble-manager';
 
 const BleManagerModule = NativeModules.BleManager;
 const bleManagerEmitter = new NativeEventEmitter(BleManagerModule);
-const DEVICE_ID = 'B0:8C:75:4B:CE:0C';
+const DEVICE_ID = '5C:F2:86:46:60:85';
 
 const FB = RNFetchBlob.config({
   fileCache: true,
